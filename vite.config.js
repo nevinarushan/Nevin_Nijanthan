@@ -24,4 +24,6 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom'],
   },
+
+  base: process.env.VITE_BASE_PATH ||  '/Nevin_Nijanthan',
 })
