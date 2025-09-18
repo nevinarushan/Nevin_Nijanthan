@@ -6,6 +6,18 @@ import ExperienceCard from './components/ExperienceCard';
 import ExtracurricularCard from './components/ExtracurricularCard';
 import ProjectCard from './components/ProjectCard';
 import CompetencyCard from './components/CompetencyCard';
+// Import SVG assets
+import javaIcon from './assets/java-svgrepo-com.svg';
+import pythonIcon from './assets/python-svgrepo-com.svg';
+import javascriptIcon from './assets/javascript-svgrepo-com.svg';
+import htmlIcon from './assets/html-svgrepo-com.svg';
+import cssIcon from './assets/css-3-svgrepo-com.svg';
+import mysqlIcon from './assets/mysql-svgrepo-com.svg';
+import springBootIcon from './assets/icons8-spring-boot.svg';
+import nextjsIcon from './assets/nextjs-svgrepo-com.svg';
+import reactIcon from './assets/react-svgrepo-com.svg';
+import nodejsIcon from './assets/nodejs-svgrepo-com.svg';
+import bootstrapIcon from './assets/bootstrap-svgrepo-com.svg';
 import './styles/App.css';
 
 const App = () => {
@@ -483,27 +495,27 @@ const App = () => {
                             <h3 className="category-title">Languages</h3>
                             <div className="skills-row">
                               <div className="skill-item">
-                                <img src="/src/assets/java-svgrepo-com.svg" alt="Java" className="skill-icon" />
+                                <img src={javaIcon} alt="Java" className="skill-icon" />
                                 <span className="skill-name">Java</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/python-svgrepo-com.svg" alt="Python" className="skill-icon" />
+                                <img src={pythonIcon} alt="Python" className="skill-icon" />
                                 <span className="skill-name">Python</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/javascript-svgrepo-com.svg" alt="JavaScript" className="skill-icon" />
+                                <img src={javascriptIcon} alt="JavaScript" className="skill-icon" />
                                 <span className="skill-name">JavaScript</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/html-svgrepo-com.svg" alt="HTML" className="skill-icon" />
+                                <img src={htmlIcon} alt="HTML" className="skill-icon" />
                                 <span className="skill-name">HTML</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/css-3-svgrepo-com.svg" alt="CSS" className="skill-icon" />
+                                <img src={cssIcon} alt="CSS" className="skill-icon" />
                                 <span className="skill-name">CSS</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/mysql-svgrepo-com.svg" alt="MySQL" className="skill-icon" />
+                                <img src={mysqlIcon} alt="MySQL" className="skill-icon" />
                                 <span className="skill-name">MySQL</span>
                               </div>
                             </div>
@@ -514,23 +526,23 @@ const App = () => {
                             <h3 className="category-title">Frameworks</h3>
                             <div className="skills-row">
                               <div className="skill-item">
-                                <img src="/src/assets/icons8-spring-boot.svg" alt="Spring Boot" className="skill-icon" />
+                                <img src={springBootIcon} alt="Spring Boot" className="skill-icon" />
                                 <span className="skill-name">Spring Boot</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/nextjs-svgrepo-com.svg" alt="Next.js" className="skill-icon" />
+                                <img src={nextjsIcon} alt="Next.js" className="skill-icon" />
                                 <span className="skill-name">Next.js</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/react-svgrepo-com.svg" alt="React" className="skill-icon" />
+                                <img src={reactIcon} alt="React" className="skill-icon" />
                                 <span className="skill-name">React</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/nodejs-svgrepo-com.svg" alt="Node.js" className="skill-icon" />
+                                <img src={nodejsIcon} alt="Node.js" className="skill-icon" />
                                 <span className="skill-name">Node.js</span>
                               </div>
                               <div className="skill-item">
-                                <img src="/src/assets/bootstrap-svgrepo-com.svg" alt="Bootstrap" className="skill-icon" />
+                                <img src={bootstrapIcon} alt="Bootstrap" className="skill-icon" />
                                 <span className="skill-name">Bootstrap</span>
                               </div>
                             </div>
