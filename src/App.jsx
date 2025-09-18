@@ -18,6 +18,10 @@ import nextjsIcon from './assets/nextjs-svgrepo-com.svg';
 import reactIcon from './assets/react-svgrepo-com.svg';
 import nodejsIcon from './assets/nodejs-svgrepo-com.svg';
 import bootstrapIcon from './assets/bootstrap-svgrepo-com.svg';
+// Import certificate images
+import cert1Image from './assets/images/Coursera QGLIU10R3M8C_page-0001.jpg';
+import cert2Image from './assets/images/Coursera T82D1OEW2C9K (1)_page-0001.jpg';
+import cert3Image from './assets/images/Coursera M5B0FLEZRBZP_page-0001.jpg';
 import './styles/App.css';
 
 const App = () => {
@@ -40,7 +44,7 @@ const App = () => {
       name: "Coursera Certificate",
       provider: "Coursera",
       certificateId: "QGLIU10R3M8C",
-      image: "/src/assets/images/Coursera QGLIU10R3M8C_page-0001.jpg",
+      image: cert1Image,
       alt: "Coursera Certificate 1"
     },
     {
@@ -48,7 +52,7 @@ const App = () => {
       name: "Coursera Certificate",
       provider: "Coursera", 
       certificateId: "T82D1OEW2C9K",
-      image: "/src/assets/images/Coursera T82D1OEW2C9K (1)_page-0001.jpg",
+      image: cert2Image,
       alt: "Coursera Certificate 2"
     },
     {
@@ -56,7 +60,7 @@ const App = () => {
       name: "Coursera Certificate",
       provider: "Coursera",
       certificateId: "M5B0FLEZRBZP",
-      image: "/src/assets/images/Coursera M5B0FLEZRBZP_page-0001.jpg",
+      image: cert3Image,
       alt: "Coursera Certificate 3"
     }
   ], []);
